@@ -6,17 +6,21 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://www.dotinuniverse.com">
-  <title>Tag: 游戏&amp;原型 | Vega Beyond</title>
+  <title>Snowy Scene Generator(Maya, Python) | Vega Beyond</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Vega Bai的个人网站">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Vega Beyond">
-<meta property="og:url" content="http://www.dotinuniverse.com/tags/游戏-原型/index.html">
+  <meta name="description" content="The second project I decided to generate a snowy scene in Maya. At first I tried to emulate the scene using codes myself, but found it too complicated. Ian, our teacher, suggested me to use the partic">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Snowy Scene Generator(Maya, Python)">
+<meta property="og:url" content="http://www.dotinuniverse.com/2015/11/18/SnowySceneGenerator/index.html">
 <meta property="og:site_name" content="Vega Beyond">
-<meta property="og:description" content="Vega Bai的个人网站">
+<meta property="og:description" content="The second project I decided to generate a snowy scene in Maya. At first I tried to emulate the scene using codes myself, but found it too complicated. Ian, our teacher, suggested me to use the partic">
+<meta property="og:image" content="http://www.dotinuniverse.com/assets/blogimg/SnowyScene1.png">
+<meta property="og:image" content="http://www.dotinuniverse.com/assets/blogimg/SnowyScene2.png">
+<meta property="og:updated_time" content="2018-06-19T07:48:52.043Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Vega Beyond">
-<meta name="twitter:description" content="Vega Bai的个人网站">
+<meta name="twitter:title" content="Snowy Scene Generator(Maya, Python)">
+<meta name="twitter:description" content="The second project I decided to generate a snowy scene in Maya. At first I tried to emulate the scene using codes myself, but found it too complicated. Ian, our teacher, suggested me to use the partic">
+<meta name="twitter:image" content="http://www.dotinuniverse.com/assets/blogimg/SnowyScene1.png">
   
     <link rel="alternative" href="/atom.xml" title="Vega Beyond" type="application/atom+xml">
   
@@ -65,7 +69,7 @@
 	        
 				<li><a href="/tags/TA养成记/">TA养成记</a></li>
 	        
-				<li><a href="/tags/游戏&原型/">游戏&amp;原型</a></li>
+				<li><a href="/tags/游戏and原型/">游戏and原型</a></li>
 	        
 			</ul>
 		</nav>
@@ -159,7 +163,7 @@
 		        
 					<li style="width: 20%"><a href="/tags/TA养成记/">TA养成记</a></li>
 		        
-					<li style="width: 20%"><a href="/tags/游戏&原型/">游戏&amp;原型</a></li>
+					<li style="width: 20%"><a href="/tags/游戏and原型/">游戏and原型</a></li>
 		        
 				</ul>
 			</nav>
@@ -174,184 +178,189 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-SnowySceneGenerator" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2015" class="archive-year">2015</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/10/20/PostMortemSwift/" class="archive-article-date">
-  	<time datetime="2015-10-21T05:18:49.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2015-10-20</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/10/20/PostMortemSwift/">Post Mortem - Swift</a>
+    <h1 class="article-title" itemprop="name">
+      Snowy Scene Generator(Maya, Python)
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2015/11/18/SnowySceneGenerator/" class="archive-article-date">
+  	<time datetime="2015-11-19T06:18:49.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2015-11-18</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>The second project I decided to generate a snowy scene in Maya. At first I tried to emulate the scene using codes myself, but found it too complicated. Ian, our teacher, suggested me to use the particle system. So finally it’s down using particles.</p>
+<p>Scene preview:</p>
+<img src="/assets/blogimg/SnowyScene1.png" title="Generated scene preview">
+<a id="more"></a>
+<p>User interface:</p>
+<img src="/assets/blogimg/SnowyScene2.png" title="tool UI">
+<h2 id="See-how-it-works-on-Youtube"><a href="#See-how-it-works-on-Youtube" class="headerlink" title="See how it works on Youtube:"></a>See how it works on Youtube:</h2><div class="video-container"><iframe src="//www.youtube.com/embed/NDKFskKH8Nk" frameborder="0" allowfullscreen></iframe></div>
+<h2 id="Python-scripts-sample"><a href="#Python-scripts-sample" class="headerlink" title="Python scripts sample:"></a>Python scripts sample:</h2> 
+<h3 id="instructions"><a href="#instructions" class="headerlink" title="instructions:"></a>instructions:</h3><ol>
+<li>click on the plane</li>
+<li>click ‘Select Start Plane’ button</li>
+<li>if you want to use a specific image as snowflake texture, browse and select the image, then turn on the ‘Use file as texture’ checkbox. if you don’t turn on the checkbox, the particle will be rendered as white cloud type</li>
+<li>if you want to use more than one image to texture different particles, then turn on the ‘Use file Sequence’ checkbox. then the file browsered just now will be set as the start of the file sequence. make sure to name the textures in ‘image.n’ format. for example, ‘snow.1’</li>
+<li>set values of ‘Average Size’, ‘Density’, ‘MaxHeight’</li>
+<li>set values of ‘Direction Vector’</li>
+<li>if you want to make collisions between other objects and the particles, select those objects and then click ‘Select Object Collide With’ button, and turn on ‘Make Collision’ checkbox </li>
+<li>click ‘Run’ to start generating the snowy scene</li>
+</ol>
+<p>logs:<br>v1.0.5: 12-19-2015, add error captions<br>v1.0.4: 12-19-2015, add collisions; delete animation length option<br>v1.0.3: 12-16-2015, add particle render type - cloud<br>v1.0.2: 12-9-2015, add texture sequence<br>v1.0.1: 12-2-2015, add log function</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">游戏&原型</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">TA养成记</a>
         		</li>
       		
 		</ul>
 	</div>
 
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/10/19/ReviewOfAndroid NetRunner/" class="archive-article-date">
-  	<time datetime="2015-10-20T05:18:49.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2015-10-19</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/10/19/ReviewOfAndroid NetRunner/">Review of Android - NetRunner</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">游戏&原型</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2015/09/22/ProjectPostMortem_YoVenture/" class="archive-article-date">
-  	<time datetime="2015-09-23T05:18:49.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2015-09-22</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2015/09/22/ProjectPostMortem_YoVenture/">Post Mortem - YoVenture</a>
-    </h1>
-  
-
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">游戏&原型</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
       
-        </div></section>
+
       
+
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2014" class="archive-year">2014</a>
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2014/12/28/Pizza_DIY/" class="archive-article-date">
-  	<time datetime="2014-12-29T06:18:49.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2014-12-28</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2014/12/28/Pizza_DIY/">Pizza DIY - 搭配选择的UI设计</a>
-    </h1>
-  
+      </div>
+    </span>
+  </div>
+</div>
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">游戏&原型</a>
-        		</li>
-      		
-		</ul>
-	</div>
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://www.dotinuniverse.com/2015/11/18/SnowySceneGenerator/" alt="微信分享二维码">
+    </div>
+</div>
 
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/2015/12/16/PostMortemCyberForce/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          Post Mortem - Cyber Force
+        
+      </div>
+    </a>
   
   
-    </div></section>
+    <a href="/2015/11/17/PostMortemTheModusRoom/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Post Mortem - The Modus Room</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+  
+  
   
 
-    
+  
+
+  
+
+  
+  <div id="gitment-ctn"></div> 
+<link rel="stylesheet" href="//imsun.github.io/gitment/style/default.css">
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: "http://www.dotinuniverse.com/2015/11/18/SnowySceneGenerator/",
+  owner: 'vegabai',
+  repo: 'vegabai.github.io.gitment',
+  oauth: {
+    client_id: 'a3bd29d90a1aa03056eb',
+    client_secret: 'e8ab60a884a2cc8f510da416ff2d6803804f2748',
+  },
+})
+gitment.render('gitment-ctn')
+</script>
+  
 
 
           </div>
@@ -374,9 +383,9 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
+		isPost: true,
 		isArchive: false,
-		isTag: true,
+		isTag: false,
 		isCategory: false,
 		open_in_new: false,
 		toc_hide_index: true,
@@ -444,11 +453,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">游戏&原型</a>
+                <a href="javascript:void(0)" class="js-tag color3">游戏and原型</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">随笔</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">TA养成记</a>
               </li>
             
             <div class="clearfix"></div>
