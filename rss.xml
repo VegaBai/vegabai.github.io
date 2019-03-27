@@ -6,7 +6,7 @@
   <link href="/rss.xml" rel="self"/>
   
   <link href="http://vegabeyond.com/"/>
-  <updated>2019-03-01T06:11:20.087Z</updated>
+  <updated>2019-03-27T07:13:31.785Z</updated>
   <id>http://vegabeyond.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GDC 2019 EXPO见闻</title>
+    <link href="http://vegabeyond.com/2019/03/26/GDC2019EXPO/"/>
+    <id>http://vegabeyond.com/2019/03/26/GDC2019EXPO/</id>
+    <published>2019-03-27T05:59:00.000Z</published>
+    <updated>2019-03-27T07:13:31.785Z</updated>
+    
+    <content type="html"><![CDATA[<p>每年最大的展台无非就是那几个，Unity，Epic，Microsoft，PlayStation，前年Lumberyard发布后亚马逊也开始疯狂占位，今年Google也加入了（好吧其实之前也在但今年比较重磅）</p><p><strong>开发技术系列</strong></p><a id="more"></a><ol><li><p>Epic Unreal <a href="https://www.unrealengine.com/en-US/blog/epic-games-launches-epic-megagrants-new-unreal-engine-technology-and-epic-online-services-at-gdc-2019" target="_blank" rel="noopener">https://www.unrealengine.com/en-US/blog/epic-games-launches-epic-megagrants-new-unreal-engine-technology-and-epic-online-services-at-gdc-2019</a></p><ul><li><p>UE 4.22已经支持Nvidia RTX开发。 </p></li><li><p>实时渲染堪比影视了解一下 <a href="https://youtu.be/Qjt_MqEOcGM" target="_blank" rel="noopener">https://youtu.be/Qjt_MqEOcGM</a> </p></li><li><p>Epic Games store <a href="https://www.epicgames.com/" target="_blank" rel="noopener">https://www.epicgames.com/</a> 也不是新闻了 </p></li><li><p>炫耀大规模物理模拟的一个Demo <a href="https://youtu.be/fnuWG2I2QCY" target="_blank" rel="noopener">https://youtu.be/fnuWG2I2QCY</a> ，该系统将在4.23发布测试版。 </p></li><li><p>上面这个视频现场使用6个还是8个屏幕拼接而成的大屏游戏体验，然而问了几个员工好像并不知道是不是用的新的nDisplay。。。 </p></li></ul></li><li><p>Unity <a href="https://blogs.unity3d.com/2019/03/19/the-heretic-megacity-release-real-time-ray-tracing-and-more-news-from-gdc-2019/" target="_blank" rel="noopener">https://blogs.unity3d.com/2019/03/19/the-heretic-megacity-release-real-time-ray-tracing-and-more-news-from-gdc-2019/</a></p><ul><li>RTX, shader graph, new VFX system, …</li></ul></li><li><p>Google Stadia <a href="https://store.google.com/magazine/stadia" target="_blank" rel="noopener">https://store.google.com/magazine/stadia</a></p><ul><li><p>云游戏，不需要再专门去买PS4等主机，即可玩主机大作 </p></li><li><p>YouTube互动接口 </p></li><li><p>Style Transfer，利用机器学习，将一张图片的风格实时应用到游戏中。 <img src="/assets/blogimg/GDC2019_GoogleStadia.png" title="Style Transfer"></p></li><li><p>Google的展台有AR的吃豆人，一种是基于现实地图将道路作为吃豆人的路径，另一种是4个人在一个方形区域内将手机作为吃豆人角色吃空中的豆子躲空中的怪。 </p></li><li><img src="/assets/blogimg/GDC2019_GooglePacman.JPG" title="AR Pacman"><img src="/assets/blogimg/GDC2019_GooglePacman2.JPG" title="AR Pacman2"></li><li>还有AR密室逃脱，使用的是手机，传递信息，然后屋内特定物品的图案在手机中会显示不同的结果。 </li><li>记得还有一个大型多人破坏游戏。。。建造很像是玩家一号，然而目前只有一种玩法就是破坏。。能实时看到别人的破坏。没找到照片记录O.O </li></ul></li><li><p>Microsoft Game Stack <a href="https://developer.microsoft.com/en-us/games" target="_blank" rel="noopener">https://developer.microsoft.com/en-us/games</a>，80%的展台都是关于Data&amp;AI，并看不懂。。有一个将Graphics的，貌似是对游戏针对相应显卡进行加速优化。</p></li><li><p>Intel Odyssey <a href="https://gameplay.intel.com/?odyssey=True" target="_blank" rel="noopener">https://gameplay.intel.com/?odyssey=True</a> </p><ul><li>未来图形与视觉计算。英特尔好像将要发布自家的独显了。 </li></ul></li><li><p>Simplygon <a href="https://www.simplygon.com/" target="_blank" rel="noopener">https://www.simplygon.com/</a> </p><ul><li>LOD生成与减面神器，现场演示把几十万面的模型树生成卡片树，只有千面</li><li>今儿跟美术小伙伴试了一下，对于物体的剪影保持还是很不错的 </li></ul></li><li><p>InstaLOD <a href="https://instalod.com/" target="_blank" rel="noopener">https://instalod.com/</a> </p><ul><li>各种场景模型游戏流程优化工具 </li></ul></li><li><p>Substance Alchemist <a href="https://www.allegorithmic.com/products/substance-alchemist" target="_blank" rel="noopener">https://www.allegorithmic.com/products/substance-alchemist</a> </p><ul><li>比Substance Designer更简单，还能直接根据照片生成相应贴图。 </li></ul></li><li><p>亚马逊的Lumberyard <a href="https://aws.amazon.com/lumberyard/downloads/" target="_blank" rel="noopener">https://aws.amazon.com/lumberyard/downloads/</a> </p><ul><li>今年感觉带来了惊喜，三年下来从当初连做个prototype都被嫌弃的引擎，到现在看上去功能方便了不少，感叹亚马逊的耐心。三年来一直无法跟主流引擎相提并论，硬是靠亚马逊的强大的宣传和坚持不懈追赶上来。不过还没有实际用过，不敢说真的追赶上来了。。 </li><li>很早该引擎就有跟Twitch的结合，直播观看者可以投票为直播玩家做出游戏内选择。</li></ul></li></ol><p><strong>输入系列</strong></p><ol><li><p>Ultrahaptics <a href="https://www.ultrahaptics.com/" target="_blank" rel="noopener">https://www.ultrahaptics.com/</a> </p><ul><li><p>传感器追踪手的gesture，利用超声波在空气中形成触摸到物体的一种技术。 </p></li><li><p>有unity的plugin，做了UE的intergration但没有完整plugin。</p></li><li>他们的VR游戏展示有两种，一种是就人站在机器前不动的故事体验，所有互动都在一个机器上进行；一种是叫cave，在里面定点布置一些产品，然后在VR里玩家可以走过去体验。 </li></ul></li><li><p>Pico Zense <a href="https://www.pico-interactive.com/zense" target="_blank" rel="noopener">https://www.pico-interactive.com/zense</a> </p><ul><li>TOF深度相机，有各种大小模块可集成，最远检测距离10米 <img src="/assets/blogimg/GDC2019_PicoZenseTOF.jpg" title="Pico Zense TOF Camera"></li><li>Pico air light 互动投影，可以与特定实物互动，也可以作为屏幕投影所有安卓app。<img src="/assets/blogimg/GDC2019_PicoAirLight.png" title="Pico Air Light Interactive Projection"></li></ul></li><li><p>Vuelosophy <a href="http://vuelosophy.io/" target="_blank" rel="noopener">http://vuelosophy.io/</a> </p><ul><li>较小巧的眼动追踪，便携版本据说比Tobii Eye便宜很多。 </li></ul></li><li><p>Microsoft Xbox Adaptive Controller <a href="https://www.xbox.com/en-US/xbox-one/accessories/controllers/xbox-adaptive-controller" target="_blank" rel="noopener">https://www.xbox.com/en-US/xbox-one/accessories/controllers/xbox-adaptive-controller</a> </p><ul><li>最上面有一排接口，可以把市面上常用的手柄插在对应的位置，这个Adaptive手柄就会自动帮忙map相应的手柄键。这两个大大的圆可以map到A/B, X/Y, … </li><li><img src="/assets/blogimg/GDC2019_XBoxAdaptiveController.jpg" title="XBox Adaptive Controller"></li></ul></li><li><p>Tap <a href="https://www.tapwithus.com/" target="_blank" rel="noopener">https://www.tapwithus.com/</a> </p><ul><li>一款戴在手上的键盘，通过敲击不同的手指或手指组合，输入对应的字母，也可以自定义输入键。 </li><li><img src="/assets/blogimg/GDC2019_Tap.png" title="Tap"></li><li>不禁想起了几年前的Myo环，穿在胳膊上利用肌肉运动识别手势的，然而去搜了一下发现18年10月起该公司就暂停生产和销售Myo了，略有可惜，期待他们的新产品。</li></ul></li><li><p>Sensoryx VR手套 <a href="http://www.sensoryx.com/" target="_blank" rel="noopener">http://www.sensoryx.com/</a> </p><ul><li>仅需在头显前加一个传感器，带上特制手套，就能在VR游戏中识别双手。 </li><li><img src="/assets/blogimg/GDC2019_VRfree_Front_LQ.png" title="VR Free Glove"></li></ul></li><li><p>VICON 动作捕捉 <a href="https://www.vicon.com/products/camera-systems/vantage" target="_blank" rel="noopener">https://www.vicon.com/products/camera-systems/vantage</a> </p><ul><li><p><a href="https://www.vicon.com/products/software/shogun" target="_blank" rel="noopener">https://www.vicon.com/products/software/shogun</a></p></li><li><p>可实时捕捉到游戏中，立即作出评分反馈等 </p></li></ul></li><li><p>Optitrack <a href="https://optitrack.com/" target="_blank" rel="noopener">https://optitrack.com/</a> </p><ul><li>老牌动捕系统 </li></ul></li><li><p>还有Xsens，骑自行车的VR等 </p></li></ol><p><strong>其他</strong></p><ol><li><p>Magic Leap <a href="https://www.magicleap.com/" target="_blank" rel="noopener">https://www.magicleap.com/</a></p><ul><li>在Unity与UE区域分别有两个体验区，一开馆就得去排队。。排了UE区的体验。体验内容是跟一个虚拟妹子一起做贴画。</li><li><img src="/assets/blogimg/GDC2019_MagicLeap.jpg" title="Magic Leap"></li><li>感觉很适合虚拟管家或虚拟女友，人物距离感挺不错。</li><li>就是视野感觉小，出了眼前的方形显示屏就没有画面的，虚拟人或物必须在正前方才容易看见。</li><li>略微有彩虹纹，貌似是光栅成像原理的因素。</li></ul></li><li><p>bHaptics <a href="https://www.bhaptics.com/" target="_blank" rel="noopener">https://www.bhaptics.com/</a> </p><ul><li>Tactsuit体感衣，在VR FPS中如果身上部位被击中，该部位会产生震动。 <img src="/assets/blogimg/GDC2019_bHaptics.png" title="bHaptics Tacsuit"></li></ul></li><li><p>Genvid, Interactive Streaming Engine <a href="https://www.genvidtech.com/" target="_blank" rel="noopener">https://www.genvidtech.com/</a> </p><ul><li>互动直播观战引擎，在游戏开发时添加相应SDK，比如添加过个观战摄像机，在直播间的观众们就可以选择想要观看的摄像机。也能尝试点击游戏中的各种信息，实时查看游戏数据。 </li><li><img src="/assets/blogimg/GDC2019_Genvid.png" title="Genvid How It Works"></li><li>目前支持引擎Unity和Unreal，直播平台Twitch和YouTube。 </li><li>记得英雄联盟去年的S赛直播就启用了互动观赛系统，应该是一类的。 </li></ul></li><li><p>imvu <a href="https://secure.imvu.com/welcome/ftux/" target="_blank" rel="noopener">https://secure.imvu.com/welcome/ftux/</a> </p><ul><li><p>看上去像一个类似第二人生的在线多人虚拟社区？玩家可以自己上传角色模型、衣物模型贴图、场景等，然后标价卖给别的玩家，并且货币可以与真是货币兑换。 </p></li><li><p>貌似有手机app。那么渲染质量就十分有限了，看宣传上觉得不如第二人生。不过很高兴看到类似社区正在涌现。 </p></li><li><img src="/assets/blogimg/GDC2019_IMVU.jpg" title="IMVU"></li></ul></li><li><p>Pico VR <a href="https://www.pico-interactive.com/g2-4k" target="_blank" rel="noopener">https://www.pico-interactive.com/g2-4k</a> </p><ul><li>4K的便携式VR头显。在5G来临的时代，我觉得会是一个VR设备和体验的大爆发，尤其是便携VR将会疯狂涌现，相应的应用也会得到大幅发展。 </li></ul></li><li><p>3D Avatar SDK from a single selfie <a href="https://avatarsdk.com/" target="_blank" rel="noopener">https://avatarsdk.com/</a> </p><ul><li>从一张照片建立3D人物模型，还能自动补偿后背的发型。 </li></ul></li><li><p>Deep Motion Neuron <a href="https://deepmotion.com/neuron" target="_blank" rel="noopener">https://deepmotion.com/neuron</a> </p><ul><li>自动化动画生成工具，将实时视频转换为模型动画的工具。免费试用30天：GDC19 </li></ul></li><li><p>小小牛 WanderPainter <a href="https://wonderpainter.net/" target="_blank" rel="noopener">https://wonderpainter.net/</a> </p><ul><li>可以将画的任何封闭图形进行二维rig，并添加基础动画走、跑、跳等，可以快速将自制角色应用于游戏中。 </li></ul></li><li><p>Kronos Workstation Ciara <a href="https://ciaratech.com/products/workstations/" target="_blank" rel="noopener">https://ciaratech.com/products/workstations/</a> </p><ul><li>贼贵的电脑。。但网页打不开 </li><li><img src="/assets/blogimg/GDC2019_KronosPC.png" title="Kronos PC"></li></ul></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;每年最大的展台无非就是那几个，Unity，Epic，Microsoft，PlayStation，前年Lumberyard发布后亚马逊也开始疯狂占位，今年Google也加入了（好吧其实之前也在但今年比较重磅）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;开发技术系列&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Notes" scheme="http://vegabeyond.com/categories/Notes/"/>
+    
+    
+      <category term="AR" scheme="http://vegabeyond.com/tags/AR/"/>
+    
+      <category term="GDC" scheme="http://vegabeyond.com/tags/GDC/"/>
+    
+      <category term="RTX" scheme="http://vegabeyond.com/tags/RTX/"/>
+    
+      <category term="VR" scheme="http://vegabeyond.com/tags/VR/"/>
+    
+  </entry>
   
   <entry>
     <title>欢迎来到Vega的世界</title>
@@ -59,9 +88,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
   </entry>
   
@@ -87,9 +116,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
   </entry>
   
@@ -115,9 +144,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
   </entry>
   
@@ -141,9 +170,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Cinematic" scheme="http://vegabeyond.com/tags/Cinematic/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
   </entry>
   
@@ -196,9 +225,9 @@
       <category term="GameDev" scheme="http://vegabeyond.com/categories/GameDev/"/>
     
     
-      <category term="原型" scheme="http://vegabeyond.com/tags/%E5%8E%9F%E5%9E%8B/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="原型" scheme="http://vegabeyond.com/tags/%E5%8E%9F%E5%9E%8B/"/>
     
   </entry>
   
@@ -222,11 +251,11 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
-    
       <category term="Maya" scheme="http://vegabeyond.com/tags/Maya/"/>
     
       <category term="PyMel" scheme="http://vegabeyond.com/tags/PyMel/"/>
+    
+      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
     
   </entry>
   
@@ -357,11 +386,11 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
-    
       <category term="Maya" scheme="http://vegabeyond.com/tags/Maya/"/>
     
       <category term="PyMel" scheme="http://vegabeyond.com/tags/PyMel/"/>
+    
+      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
     
   </entry>
   
