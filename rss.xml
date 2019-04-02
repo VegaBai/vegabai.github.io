@@ -6,7 +6,7 @@
   <link href="/rss.xml" rel="self"/>
   
   <link href="http://vegabeyond.com/"/>
-  <updated>2019-03-27T07:51:06.356Z</updated>
+  <updated>2019-04-02T07:40:49.285Z</updated>
   <id>http://vegabeyond.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ShaderJam - 泡泡材质</title>
+    <link href="http://vegabeyond.com/2019/04/01/ShaderJam-Bubble/"/>
+    <id>http://vegabeyond.com/2019/04/01/ShaderJam-Bubble/</id>
+    <published>2019-04-02T05:59:59.000Z</published>
+    <updated>2019-04-02T07:40:49.285Z</updated>
+    
+    <content type="html"><![CDATA[<p>把别人家的需求盗过来了～～</p><p>要求是做个泡泡材质，能够表现泡泡厚度，并且有上下高光，如图：</p><a id="more"></a><p><img src="Shader_Bubble0.png" alt="参考图"></p><p><img src="Shader_Bubble0_1.png" alt="参考图"></p><p>这么鲜艳的色彩、一致的pattern，应该是p的图，不过看着确实挺好看挺合理的。。</p><ul><li>边缘厚度，使用fresnel进行一定计算生成。</li><li>上下的高光，我认为光源在上方，上方的高光是光源照射上方内表面的反光，下方的光则是下方泡泡内表面的反光。Shader里使用向量LightDir表示虚拟光源，水平向下flip表示下方的虚拟光源，计算反光。</li><li>使用cubemap表示环境反光。</li><li>使用一张水波normal图，在世界坐标下计算模型vertices的位移，使泡泡变形。</li></ul><p>使用UE 4.22 Preview7：</p><p><img src="Shader_Bubble1.png" alt="材质预览"></p><p><img src="Shader_Bubble2.png" alt="材质连线图"></p><p><a href="M_Bubble.uasset">Download .uasset</a></p><p>Welcome any thoughts :D</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;把别人家的需求盗过来了～～&lt;/p&gt;
+&lt;p&gt;要求是做个泡泡材质，能够表现泡泡厚度，并且有上下高光，如图：&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
+    
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+  </entry>
   
   <entry>
     <title>GDC 2019 EXPO见闻</title>
