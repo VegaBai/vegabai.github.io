@@ -6,7 +6,7 @@
   <link href="/rss.xml" rel="self"/>
   
   <link href="http://vegabeyond.com/"/>
-  <updated>2020-03-22T12:39:24.322Z</updated>
+  <updated>2020-03-23T05:57:57.125Z</updated>
   <id>http://vegabeyond.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://vegabeyond.com/2020/03/21/UEMaterial-InnerEnergy/"/>
     <id>http://vegabeyond.com/2020/03/21/UEMaterial-InnerEnergy/</id>
     <published>2020-03-21T15:30:11.000Z</published>
-    <updated>2020-03-22T12:39:24.322Z</updated>
+    <updated>2020-03-23T05:57:57.125Z</updated>
     
-    <content type="html"><![CDATA[<p>尝试实现一个类似辉光球的内部能量涌动效果，仅使用UE材质。可以应用在任何物体上。</p><p>预览：</p><img src="/assets/blogimg/UEMat_InnerEnergy1.PNG" title="InnerEnergy1"><a id="more"></a><p><img src="InnerEnergy.GIF" alt="InnerEnergy_Gif"></p><p><img src="InnerEnergy2.PNG" alt="InnerEnergy2"></p><p>视频来自B站，Youtube请戳 <a href="https://youtu.be/K0qudPjWKLI" target="_blank" rel="noopener">https://youtu.be/K0qudPjWKLI</a></p><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">    <iframe src scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">    </iframe></div><p>材质全图，点击查看大图：</p><p><img src="UEMat_InnerEnergy_ScreenShot.png" alt="材质全图"></p>]]></content>
+    <content type="html"><![CDATA[<p>尝试实现一个类似辉光球的内部能量涌动效果，仅使用UE材质。可以应用在任何物体上。</p><p>预览：</p><img src="/assets/blogimg/UEMat_InnerEnergy1.PNG" title="InnerEnergy1"><a id="more"></a><p><img src="InnerEnergy.GIF" alt="InnerEnergy_Gif"></p><p><img src="InnerEnergy2.PNG" alt="InnerEnergy2"></p><p>视频来自B站，Youtube请戳 <a href="https://youtu.be/K0qudPjWKLI" target="_blank" rel="noopener">https://youtu.be/K0qudPjWKLI</a></p><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">    <iframe src="//player.bilibili.com/player.html?aid=98387481&bvid=&cid=167945405&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">    </iframe></div><p>材质全图，点击查看大图：</p><p><img src="UEMat_InnerEnergy_ScreenShot.png" alt="材质全图"></p>]]></content>
     
     <summary type="html">
     
@@ -36,9 +36,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
   </entry>
   
@@ -61,9 +61,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
   </entry>
   
@@ -139,9 +139,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
   </entry>
   
@@ -167,9 +167,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
   </entry>
   
@@ -195,9 +195,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
   </entry>
   
@@ -302,11 +302,11 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
+      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
+    
       <category term="Maya" scheme="http://vegabeyond.com/tags/Maya/"/>
     
       <category term="PyMel" scheme="http://vegabeyond.com/tags/PyMel/"/>
-    
-      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
     
   </entry>
   
@@ -437,11 +437,11 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
+      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
+    
       <category term="Maya" scheme="http://vegabeyond.com/tags/Maya/"/>
     
       <category term="PyMel" scheme="http://vegabeyond.com/tags/PyMel/"/>
-    
-      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
     
   </entry>
   
