@@ -6,7 +6,7 @@
   <link href="/rss.xml" rel="self"/>
   
   <link href="http://vegabeyond.com/"/>
-  <updated>2020-03-29T04:50:05.438Z</updated>
+  <updated>2020-03-31T01:31:28.216Z</updated>
   <id>http://vegabeyond.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://vegabeyond.com/2020/03/28/UEMaterial-IceAndCrystal/"/>
     <id>http://vegabeyond.com/2020/03/28/UEMaterial-IceAndCrystal/</id>
     <published>2020-03-29T02:37:58.000Z</published>
-    <updated>2020-03-29T04:50:05.438Z</updated>
+    <updated>2020-03-31T01:31:28.216Z</updated>
     
-    <content type="html"><![CDATA[<p>学习制作星空宝石效果，因此把相关的次表面Subsurface，Bump贴图和常见的冰块效果一起学习了。</p><p>预览：</p><img src="/assets/blogimg/UEMat_IceAndCrystal.PNG" title="IceAndCrystal"><a id="more"></a><p><img src="IceAndCrystal.GIF" alt="IceAndCrystal"></p><p>视频来自B站，Youtube请戳 <a href="https://youtu.be/_nkGncZxtww" target="_blank" rel="noopener">https://youtu.be/_nkGncZxtww</a></p><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">    <iframe src scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">    </iframe></div><p>冰材质全图，点击查看大图：</p><p><img src="Ice_Screenshot.png" alt="冰材质全图"></p><p>星空水晶材质全图，点击查看大图：</p><p><img src="Crystal_Screenshot.png" alt="星空水晶材质全图"></p>]]></content>
+    <content type="html"><![CDATA[<p>学习制作星空宝石效果，因此把相关的次表面Subsurface，Bump贴图和常见的冰块效果一起学习了。</p><p>预览：</p><img src="/assets/blogimg/UEMat_IceAndCrystal.PNG" title="IceAndCrystal"><a id="more"></a><p><img src="IceAndCrystal.GIF" alt="IceAndCrystal"></p><p>视频来自B站，Youtube请戳 <a href="https://youtu.be/_nkGncZxtww" target="_blank" rel="noopener">https://youtu.be/_nkGncZxtww</a></p><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">    <iframe src="//player.bilibili.com/player.html?aid=925005344&bvid=BV1ZT4y1V7qt&cid=171030547&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">    </iframe></div><p>冰材质全图，点击查看大图：</p><p><img src="Ice_Screenshot.png" alt="冰材质全图"></p><p>星空水晶材质全图，点击查看大图：</p><p><img src="Crystal_Screenshot.png" alt="星空水晶材质全图"></p>]]></content>
     
     <summary type="html">
     
@@ -36,9 +36,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
       <category term="Subsurface" scheme="http://vegabeyond.com/tags/Subsurface/"/>
     
@@ -64,9 +64,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
   </entry>
   
@@ -89,9 +89,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
   </entry>
   
@@ -167,9 +167,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
   </entry>
   
@@ -195,9 +195,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
   </entry>
   
@@ -223,9 +223,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
   </entry>
   
@@ -330,11 +330,11 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
-    
       <category term="Maya" scheme="http://vegabeyond.com/tags/Maya/"/>
     
       <category term="PyMel" scheme="http://vegabeyond.com/tags/PyMel/"/>
+    
+      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
     
   </entry>
   
@@ -465,11 +465,11 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
-    
       <category term="Maya" scheme="http://vegabeyond.com/tags/Maya/"/>
     
       <category term="PyMel" scheme="http://vegabeyond.com/tags/PyMel/"/>
+    
+      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
     
   </entry>
   
