@@ -6,7 +6,7 @@
   <link href="/rss.xml" rel="self"/>
   
   <link href="http://vegabeyond.com/"/>
-  <updated>2020-04-06T03:32:50.681Z</updated>
+  <updated>2020-04-06T03:34:01.233Z</updated>
   <id>http://vegabeyond.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://vegabeyond.com/2020/04/05/UEMaterial-DancingLines/"/>
     <id>http://vegabeyond.com/2020/04/05/UEMaterial-DancingLines/</id>
     <published>2020-04-06T02:47:40.000Z</published>
-    <updated>2020-04-06T03:32:50.681Z</updated>
+    <updated>2020-04-06T03:34:01.233Z</updated>
     
     <content type="html"><![CDATA[<p>使用顶点动画材质的跳动线条效果，以及制作环形VFX的一个小技巧。</p><p>预览：</p><img src="/assets/blogimg/UEMat_DancingLines.png" title="DancingLines"><a id="more"></a><p><img src="DancingLines.gif" alt="DancingLines"></p><p>视频来自B站，Youtube请戳 <a href="https://youtu.be/lytFmqqbp9k" target="_blank" rel="noopener">https://youtu.be/lytFmqqbp9k</a></p><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">    <iframe src scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">    </iframe></div><p>跳动线条材质全图，点击查看大图：</p><p><img src="DancingLines_ScreenShot.png" alt="跳动线条材质全图"></p>]]></content>
     
@@ -36,9 +36,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
       <category term="Subsurface" scheme="http://vegabeyond.com/tags/Subsurface/"/>
     
@@ -64,9 +64,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
       <category term="Subsurface" scheme="http://vegabeyond.com/tags/Subsurface/"/>
     
@@ -92,9 +92,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
   </entry>
   
@@ -117,9 +117,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
   </entry>
   
@@ -195,9 +195,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
   </entry>
   
@@ -223,9 +223,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
   </entry>
   
@@ -251,9 +251,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
   </entry>
   
@@ -277,9 +277,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Cinematic" scheme="http://vegabeyond.com/tags/Cinematic/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Cinematic" scheme="http://vegabeyond.com/tags/Cinematic/"/>
     
   </entry>
   
@@ -332,9 +332,9 @@
       <category term="GameDev" scheme="http://vegabeyond.com/categories/GameDev/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="原型" scheme="http://vegabeyond.com/tags/%E5%8E%9F%E5%9E%8B/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
   </entry>
   
@@ -358,11 +358,11 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
-    
       <category term="Maya" scheme="http://vegabeyond.com/tags/Maya/"/>
     
       <category term="PyMel" scheme="http://vegabeyond.com/tags/PyMel/"/>
+    
+      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
     
   </entry>
   
@@ -493,11 +493,11 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
-    
       <category term="Maya" scheme="http://vegabeyond.com/tags/Maya/"/>
     
       <category term="PyMel" scheme="http://vegabeyond.com/tags/PyMel/"/>
+    
+      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
     
   </entry>
   
