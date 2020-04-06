@@ -6,7 +6,7 @@
   <link href="/rss.xml" rel="self"/>
   
   <link href="http://vegabeyond.com/"/>
-  <updated>2020-04-06T03:03:04.063Z</updated>
+  <updated>2020-04-06T03:24:42.249Z</updated>
   <id>http://vegabeyond.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>UEMaterial-DancingLines</title>
+    <title>Unreal Shaders - Dancing Lines 跳动线条</title>
     <link href="http://vegabeyond.com/2020/04/05/UEMaterial-DancingLines/"/>
     <id>http://vegabeyond.com/2020/04/05/UEMaterial-DancingLines/</id>
     <published>2020-04-06T02:47:40.000Z</published>
-    <updated>2020-04-06T03:03:04.063Z</updated>
+    <updated>2020-04-06T03:24:42.249Z</updated>
     
     <content type="html"><![CDATA[<p>使用顶点动画材质的跳动线条效果，以及制作环形VFX的一个小技巧。</p><p>预览：</p><img src="/assets/blogimg/UEMat_DancingLines.png" title="DancingLines"><a id="more"></a><p><img src="DancingLines.gif" alt="DancingLines"></p><p>视频来自B站，Youtube请戳 <a href="https://youtu.be/lytFmqqbp9k" target="_blank" rel="noopener">https://youtu.be/lytFmqqbp9k</a></p><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">    <iframe src scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">    </iframe></div><p>跳动线条材质全图，点击查看大图：</p><p><img src="DancingLines_Screenshot.png" alt="跳动线条材质全图"></p>]]></content>
     
@@ -358,11 +358,11 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
+      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
+    
       <category term="Maya" scheme="http://vegabeyond.com/tags/Maya/"/>
     
       <category term="PyMel" scheme="http://vegabeyond.com/tags/PyMel/"/>
-    
-      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
     
   </entry>
   
@@ -493,11 +493,11 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
+      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
+    
       <category term="Maya" scheme="http://vegabeyond.com/tags/Maya/"/>
     
       <category term="PyMel" scheme="http://vegabeyond.com/tags/PyMel/"/>
-    
-      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
     
   </entry>
   
