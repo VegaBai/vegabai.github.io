@@ -331,9 +331,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="Renderer" scheme="http://vegabeyond.com/tags/Renderer/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
       <category term="OpenGL" scheme="http://vegabeyond.com/tags/OpenGL/"/>
     
