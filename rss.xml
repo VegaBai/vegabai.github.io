@@ -6,7 +6,7 @@
   <link href="/rss.xml" rel="self"/>
   
   <link href="http://vegabeyond.com/"/>
-  <updated>2020-04-06T04:10:59.201Z</updated>
+  <updated>2020-06-09T23:57:43.074Z</updated>
   <id>http://vegabeyond.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Unreal Shaders - Holo Model Glitching 不稳定的全息模型</title>
+    <link href="http://vegabeyond.com/2020/06/22/UEMaterial-HoloModelGlitching/"/>
+    <id>http://vegabeyond.com/2020/06/22/UEMaterial-HoloModelGlitching/</id>
+    <published>2020-06-22T23:46:30.000Z</published>
+    <updated>2020-06-09T23:57:43.074Z</updated>
+    
+    <content type="html"><![CDATA[<p>为一个cyberpunk小项目做的简易不稳定全息模型材质。</p><p>预览：</p><img src="/assets/blogimg/UEMat_HoloModelGlitching.png" title="HoloModelGlitching"><a id="more"></a><p><img src="HoloModelGlitching.gif" alt="HoloModelGlitching"></p><p>视频来自B站，Youtube请戳 </p><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">    <iframe src="//player.bilibili.com/player.html?aid=752725177&bvid=BV1uk4y1R7Hq&cid=174549644&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">    </iframe></div><p>不稳定的全息模型材质全图，点击查看大图：</p><p><img src="HoloModelGlitching_Screenshot.png" alt="不稳定的全息模型"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;为一个cyberpunk小项目做的简易不稳定全息模型材质。&lt;/p&gt;
+&lt;p&gt;预览：&lt;/p&gt;
+&lt;img src=&quot;/assets/blogimg/UEMat_HoloModelGlitching.png&quot; title=&quot;HoloModelGlitching&quot;&gt;
+    
+    </summary>
+    
+      <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
+    
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="VFX" scheme="http://vegabeyond.com/tags/VFX/"/>
+    
+  </entry>
   
   <entry>
     <title>Unreal Shaders - Dancing Lines 跳动线条</title>
@@ -36,9 +64,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
       <category term="Subsurface" scheme="http://vegabeyond.com/tags/Subsurface/"/>
     
@@ -64,9 +92,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
       <category term="Subsurface" scheme="http://vegabeyond.com/tags/Subsurface/"/>
     
@@ -92,9 +120,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
   </entry>
   
@@ -117,9 +145,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
   </entry>
   
@@ -195,9 +223,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
   </entry>
   
@@ -223,9 +251,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
   </entry>
   
@@ -251,9 +279,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
   </entry>
   
@@ -358,11 +386,11 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
-    
       <category term="Maya" scheme="http://vegabeyond.com/tags/Maya/"/>
     
       <category term="PyMel" scheme="http://vegabeyond.com/tags/PyMel/"/>
+    
+      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
     
   </entry>
   
@@ -493,11 +521,11 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
-    
       <category term="Maya" scheme="http://vegabeyond.com/tags/Maya/"/>
     
       <category term="PyMel" scheme="http://vegabeyond.com/tags/PyMel/"/>
+    
+      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
     
   </entry>
   
