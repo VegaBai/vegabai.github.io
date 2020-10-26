@@ -59,11 +59,11 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
       <category term="Prototype" scheme="http://vegabeyond.com/tags/Prototype/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
       <category term="VFX" scheme="http://vegabeyond.com/tags/VFX/"/>
     
@@ -89,9 +89,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
       <category term="VFX" scheme="http://vegabeyond.com/tags/VFX/"/>
     
@@ -117,9 +117,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
       <category term="Subsurface" scheme="http://vegabeyond.com/tags/Subsurface/"/>
     
@@ -145,9 +145,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
       <category term="Subsurface" scheme="http://vegabeyond.com/tags/Subsurface/"/>
     
@@ -173,9 +173,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
   </entry>
   
@@ -184,9 +184,9 @@
     <link href="http://vegabeyond.com/2019/04/01/ShaderJam-Bubble/"/>
     <id>http://vegabeyond.com/2019/04/01/ShaderJam-Bubble/</id>
     <published>2019-04-02T06:59:59.000Z</published>
-    <updated>2019-04-02T07:40:49.285Z</updated>
+    <updated>2020-10-26T05:42:13.645Z</updated>
     
-    <content type="html"><![CDATA[<p>把别人家的需求盗过来了～～</p><p>要求是做个泡泡材质，能够表现泡泡厚度，并且有上下高光，如图：</p><a id="more"></a><p><img src="Shader_Bubble0.png" alt="参考图"></p><p><img src="Shader_Bubble0_1.png" alt="参考图"></p><p>这么鲜艳的色彩、一致的pattern，应该是p的图，不过看着确实挺好看挺合理的。。</p><ul><li>边缘厚度，使用fresnel进行一定计算生成。</li><li>上下的高光，我认为光源在上方，上方的高光是光源照射上方内表面的反光，下方的光则是下方泡泡内表面的反光。Shader里使用向量LightDir表示虚拟光源，水平向下flip表示下方的虚拟光源，计算反光。</li><li>使用cubemap表示环境反光。</li><li>使用一张水波normal图，在世界坐标下计算模型vertices的位移，使泡泡变形。</li></ul><p>使用UE 4.22 Preview7：</p><p><img src="Shader_Bubble1.png" alt="材质预览"></p><p><img src="Shader_Bubble2.png" alt="材质连线图"></p><p><a href="M_Bubble.uasset">Download .uasset</a></p><p>Welcome any thoughts :D</p>]]></content>
+    <content type="html"><![CDATA[<p>把别人家的需求盗过来了～～</p><p>要求是做个泡泡材质，能够表现泡泡厚度，并且有上下高光，如图：</p><a id="more"></a><p><img src="Shader_Bubble0.png" alt="参考图"></p><p><img src="Shader_Bubble0_1.png" alt="参考图"></p><p>这么鲜艳的色彩、一致的pattern，应该是p的图，不过看着确实挺好看挺合理的。。</p><ul><li>边缘厚度，使用fresnel进行一定计算生成。</li><li>上下的高光，我认为光源在上方，上方的高光是光源照射上方内表面的反光，下方的光则是下方泡泡内表面的反光。Shader里使用向量LightDir表示虚拟光源，水平向下flip表示下方的虚拟光源，计算反光。</li><li>使用cubemap表示环境反光。</li><li>使用一张水波normal图，在世界坐标下计算模型vertices的位移，使泡泡变形。</li></ul><p>使用UE 4.22 Preview7：</p><p><img src="Shader_Bubble1.png" alt="材质预览"></p><p><img src="Shader_Bubble2.png" alt="材质连线图"></p><button onclick="window.open('/assets/blogfile/M_Bubble.uasset')" style="background-color: #4CAF50; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; ">Download</button><p>Welcome any thoughts :D</p>]]></content>
     
     <summary type="html">
     
@@ -198,9 +198,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
   </entry>
   
@@ -223,13 +223,13 @@
       <category term="Notes" scheme="http://vegabeyond.com/categories/Notes/"/>
     
     
-      <category term="AR" scheme="http://vegabeyond.com/tags/AR/"/>
-    
       <category term="GDC" scheme="http://vegabeyond.com/tags/GDC/"/>
     
       <category term="RTX" scheme="http://vegabeyond.com/tags/RTX/"/>
     
       <category term="VR" scheme="http://vegabeyond.com/tags/VR/"/>
+    
+      <category term="AR" scheme="http://vegabeyond.com/tags/AR/"/>
     
   </entry>
   
@@ -276,9 +276,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
   </entry>
   
@@ -304,9 +304,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
   </entry>
   
@@ -332,9 +332,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
-    
       <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+      <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
     
   </entry>
   
@@ -384,9 +384,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Renderer" scheme="http://vegabeyond.com/tags/Renderer/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="Renderer" scheme="http://vegabeyond.com/tags/Renderer/"/>
     
       <category term="OpenGL" scheme="http://vegabeyond.com/tags/OpenGL/"/>
     
@@ -424,9 +424,9 @@
     <link href="http://vegabeyond.com/2015/11/18/SnowySceneGenerator/"/>
     <id>http://vegabeyond.com/2015/11/18/SnowySceneGenerator/</id>
     <published>2015-11-19T07:18:49.000Z</published>
-    <updated>2019-03-01T06:13:45.772Z</updated>
+    <updated>2020-10-26T05:36:21.803Z</updated>
     
-    <content type="html"><![CDATA[<p>The second project I decided to generate a snowy scene in Maya. At first I tried to emulate the scene using codes myself, but found it too complicated. Ian, our teacher, suggested me to use the particle system. So finally it’s down using particles.</p><p>Scene preview:</p><img src="/assets/blogimg/SnowyScene1.png" title="Generated scene preview"><a id="more"></a><p>User interface:</p><img src="/assets/blogimg/SnowyScene2.png" title="tool UI"><h2 id="See-how-it-works-on-Youtube"><a href="#See-how-it-works-on-Youtube" class="headerlink" title="See how it works on Youtube:"></a>See how it works on Youtube:</h2><div class="video-container"><iframe src="//www.youtube.com/embed/NDKFskKH8Nk" frameborder="0" allowfullscreen></iframe></div><h2 id="Python-scripts-sample"><a href="#Python-scripts-sample" class="headerlink" title="Python scripts sample:"></a>Python scripts sample:</h2> <h3 id="instructions"><a href="#instructions" class="headerlink" title="instructions:"></a>instructions:</h3><ol><li>click on the plane</li><li>click ‘Select Start Plane’ button</li><li>if you want to use a specific image as snowflake texture, browse and select the image, then turn on the ‘Use file as texture’ checkbox. if you don’t turn on the checkbox, the particle will be rendered as white cloud type</li><li>if you want to use more than one image to texture different particles, then turn on the ‘Use file Sequence’ checkbox. then the file browsered just now will be set as the start of the file sequence. make sure to name the textures in ‘image.n’ format. for example, ‘snow.1’</li><li>set values of ‘Average Size’, ‘Density’, ‘MaxHeight’</li><li>set values of ‘Direction Vector’</li><li>if you want to make collisions between other objects and the particles, select those objects and then click ‘Select Object Collide With’ button, and turn on ‘Make Collision’ checkbox </li><li>click ‘Run’ to start generating the snowy scene</li></ol><p>logs:<br>v1.0.5: 12-19-2015, add error captions<br>v1.0.4: 12-19-2015, add collisions; delete animation length option<br>v1.0.3: 12-16-2015, add particle render type - cloud<br>v1.0.2: 12-9-2015, add texture sequence<br>v1.0.1: 12-2-2015, add log function</p>]]></content>
+    <content type="html"><![CDATA[<p>The second project I decided to generate a snowy scene in Maya. At first I tried to emulate the scene using codes myself, but found it too complicated. Ian, our teacher, suggested me to use the particle system. So finally it’s down using particles.</p><p>Scene preview:</p><img src="/assets/blogimg/SnowyScene1.png" title="Generated scene preview"><a id="more"></a><p>User interface:</p><img src="/assets/blogimg/SnowyScene2.png" title="tool UI"><h2 id="See-how-it-works-on-Youtube"><a href="#See-how-it-works-on-Youtube" class="headerlink" title="See how it works on Youtube:"></a>See how it works on Youtube:</h2><div class="video-container"><iframe src="//www.youtube.com/embed/NDKFskKH8Nk" frameborder="0" allowfullscreen></iframe></div><h2 id="Python-scripts-sample"><a href="#Python-scripts-sample" class="headerlink" title="Python scripts sample:"></a>Python scripts sample:</h2> <h3 id="instructions"><a href="#instructions" class="headerlink" title="instructions:"></a>instructions:</h3><ol><li>click on the plane</li><li>click ‘Select Start Plane’ button</li><li>if you want to use a specific image as snowflake texture, browse and select the image, then turn on the ‘Use file as texture’ checkbox. if you don’t turn on the checkbox, the particle will be rendered as white cloud type</li><li>if you want to use more than one image to texture different particles, then turn on the ‘Use file Sequence’ checkbox. then the file browsered just now will be set as the start of the file sequence. make sure to name the textures in ‘image.n’ format. for example, ‘snow.1’</li><li>set values of ‘Average Size’, ‘Density’, ‘MaxHeight’</li><li>set values of ‘Direction Vector’</li><li>if you want to make collisions between other objects and the particles, select those objects and then click ‘Select Object Collide With’ button, and turn on ‘Make Collision’ checkbox </li><li>click ‘Run’ to start generating the snowy scene</li></ol><p>logs:<br>v1.0.5: 12-19-2015, add error captions<br>v1.0.4: 12-19-2015, add collisions; delete animation length option<br>v1.0.3: 12-16-2015, add particle render type - cloud<br>v1.0.2: 12-9-2015, add texture sequence<br>v1.0.1: 12-2-2015, add log function</p><button onclick="window.open('/assets/blogfile/SnowWorld.py')" style="background-color: #4CAF50; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; ">Download</button>]]></content>
     
     <summary type="html">
     
@@ -439,11 +439,11 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
-    
       <category term="Maya" scheme="http://vegabeyond.com/tags/Maya/"/>
     
       <category term="PyMel" scheme="http://vegabeyond.com/tags/PyMel/"/>
+    
+      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
     
   </entry>
   
@@ -466,13 +466,13 @@
       <category term="GameDev" scheme="http://vegabeyond.com/categories/GameDev/"/>
     
     
+      <category term="AR" scheme="http://vegabeyond.com/tags/AR/"/>
+    
       <category term="Prototype" scheme="http://vegabeyond.com/tags/Prototype/"/>
     
       <category term="Unity" scheme="http://vegabeyond.com/tags/Unity/"/>
     
       <category term="Mobile" scheme="http://vegabeyond.com/tags/Mobile/"/>
-    
-      <category term="AR" scheme="http://vegabeyond.com/tags/AR/"/>
     
   </entry>
   
@@ -560,9 +560,9 @@
     <link href="http://vegabeyond.com/2015/10/21/SnowFlakeGeneratingTool/"/>
     <id>http://vegabeyond.com/2015/10/21/SnowFlakeGeneratingTool/</id>
     <published>2015-10-22T06:18:49.000Z</published>
-    <updated>2019-03-01T06:13:03.562Z</updated>
+    <updated>2020-10-26T05:40:49.924Z</updated>
     
-    <content type="html"><![CDATA[<p>This is my first tool on Technical Art class. I made a snowflake generate tool, use the given object from the user, to generate a beautiful piece of snowflake. This project is mainly for getting familiar with Python scripting in Maya.</p><img src="/assets/blogimg/SnowFlake1.png" title="Sample snow flake"><a id="more"></a><h2 id="User-interface"><a href="#User-interface" class="headerlink" title="User interface:"></a>User interface:</h2><img src="/assets/blogimg/SnowFlakeUI.png" title="tool UI"><h2 id="See-how-it-works-on-Youtube"><a href="#See-how-it-works-on-Youtube" class="headerlink" title="See how it works on Youtube:"></a>See how it works on Youtube:</h2><div class="video-container"><iframe src="//www.youtube.com/embed/KvMA5L8tkf8" frameborder="0" allowfullscreen></iframe></div><h2 id="Python-scripts-sample"><a href="#Python-scripts-sample" class="headerlink" title="Python scripts sample:"></a>Python scripts sample:</h2> ]]></content>
+    <content type="html"><![CDATA[<p>This is my first tool on Technical Art class. I made a snowflake generate tool, use the given object from the user, to generate a beautiful piece of snowflake. This project is mainly for getting familiar with Python scripting in Maya.</p><img src="/assets/blogimg/SnowFlake1.png" title="Sample snow flake"><a id="more"></a><h2 id="User-interface"><a href="#User-interface" class="headerlink" title="User interface:"></a>User interface:</h2><img src="/assets/blogimg/SnowFlakeUI.png" title="tool UI"><h2 id="See-how-it-works-on-Youtube"><a href="#See-how-it-works-on-Youtube" class="headerlink" title="See how it works on Youtube:"></a>See how it works on Youtube:</h2><div class="video-container"><iframe src="//www.youtube.com/embed/KvMA5L8tkf8" frameborder="0" allowfullscreen></iframe></div><h2 id="Python-scripts-sample"><a href="#Python-scripts-sample" class="headerlink" title="Python scripts sample:"></a>Python scripts sample:</h2> <button onclick="window.open('/assets/blogfile/SnowPiece.py')" style="background-color: #4CAF50; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; ">Download</button>]]></content>
     
     <summary type="html">
     
@@ -574,11 +574,11 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
-    
       <category term="Maya" scheme="http://vegabeyond.com/tags/Maya/"/>
     
       <category term="PyMel" scheme="http://vegabeyond.com/tags/PyMel/"/>
+    
+      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
     
   </entry>
   
