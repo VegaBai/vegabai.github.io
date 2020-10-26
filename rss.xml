@@ -6,7 +6,7 @@
   <link href="/rss.xml" rel="self"/>
   
   <link href="http://vegabeyond.com/"/>
-  <updated>2020-07-16T18:46:55.249Z</updated>
+  <updated>2020-10-26T05:14:45.712Z</updated>
   <id>http://vegabeyond.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>UE4.25 Chaos - Build Engine from Source</title>
+    <link href="http://vegabeyond.com/2020/10/25/UE-BuildFromSource-Chaos/"/>
+    <id>http://vegabeyond.com/2020/10/25/UE-BuildFromSource-Chaos/</id>
+    <published>2020-10-26T04:30:00.000Z</published>
+    <updated>2020-10-26T05:14:45.712Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前尝试从Github上pull了一下UE 4.25包含Chaos系统的分支，用VS2017编译了一下。记录一下步骤。</p><p>步骤</p><a id="more"></a><ol><li><p><a href="https://www.unrealengine.com/zh-CN/ue4-on-github" target="_blank" rel="noopener">获得UE在Github上源代码的访问权</a>，需要把自己的Github账号与UE账号绑定。</p></li><li><p><a href="https://docs.unrealengine.com/zh-CN/GettingStarted/DownloadingUnrealEngine/index.html" target="_blank" rel="noopener">下载虚幻引擎源代码</a>，下载后先解压，做到第2步，先不要设置其他。</p></li><li><p><a href="https://docs.unrealengine.com/zh-CN/Engine/Chaos/ChaosDestruction/ChaosDestructionOverview/index.html" target="_blank" rel="noopener">Chaos破坏系统概述</a>，根据这个文档修改 UE4Editor.Target.cs ，添加需要的行。</p><p>这里我按照官网的设置后边都会有运行error打不开引擎，下面这行最后的词我依然保持Shared才能用 “BuildEnvironment = TargetBuildEnvironment.Shared;” 。这个问题好像有点玄学，这个<a href="https://forums.unrealengine.com/unreal-engine/announcements-and-releases/1641765-how-to-enable-chaos?q=Unique" target="_blank" rel="noopener">论坛帖子</a>报告了两种设置各有成功和失败的情况，所以都尝试了一下。</p></li><li><p>根据上面文档继续编译引擎，运行 Setup.bat 和 GenerateProjectFiles.bat 。</p></li><li><p>打开生成的ue4.sln，设置 Development Editor ，然后Build。这样编译后的文件需要从VS里按F5运行UE的Editor，也可以找到Debug文件夹直接打开UEEditor.exe，但是不能脱离VS项目运行，那样应该需要编译release版本，尝试了一下没有成功，本文最后有一些记录。</p></li><li><p>运行后，新建并打开项目，设置Chaos插件，也就是文档里的第7步。重启编辑器，就可以找到Chaos面板了。</p></li></ol><p>顺便一提，大部分UE的中文文档，只需要把对应英文文档链接里的en-US改成zh-CN就好啦～</p><p>关于打包release版本的引擎，过程中搜到一个小工具叫<a href="https://github.com/rfsheffer/PyUE4Builder" target="_blank" rel="noopener">PyUE4Builder</a>，也是个好评如潮的工具，然而当时这个小工具只支持到4.24，想打包4.25的但是改了一些设置都失败了。还有一个是<a href="https://github.com/ryanjon2040/UE4-Binary-Builder" target="_blank" rel="noopener">UE4-Binary-Builder</a>，看样子这个更新比较勤快，需要的小伙伴可以参考最新的文档试试。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前尝试从Github上pull了一下UE 4.25包含Chaos系统的分支，用VS2017编译了一下。记录一下步骤。&lt;/p&gt;
+&lt;p&gt;步骤&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
+    
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
+    
+  </entry>
   
   <entry>
     <title>AR Prototype - Cyberpunk Version World 赛博朋克版本的世界</title>
@@ -36,9 +59,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
       <category term="Prototype" scheme="http://vegabeyond.com/tags/Prototype/"/>
     
@@ -66,9 +89,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
       <category term="VFX" scheme="http://vegabeyond.com/tags/VFX/"/>
     
@@ -94,9 +117,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
       <category term="Subsurface" scheme="http://vegabeyond.com/tags/Subsurface/"/>
     
@@ -122,9 +145,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
       <category term="Subsurface" scheme="http://vegabeyond.com/tags/Subsurface/"/>
     
@@ -150,9 +173,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
   </entry>
   
@@ -175,9 +198,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
   </entry>
   
@@ -253,9 +276,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
   </entry>
   
@@ -281,9 +304,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
   </entry>
   
@@ -309,9 +332,9 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
-      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
-    
       <category term="Shader" scheme="http://vegabeyond.com/tags/Shader/"/>
+    
+      <category term="UE4" scheme="http://vegabeyond.com/tags/UE4/"/>
     
   </entry>
   
@@ -416,11 +439,11 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
+      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
+    
       <category term="Maya" scheme="http://vegabeyond.com/tags/Maya/"/>
     
       <category term="PyMel" scheme="http://vegabeyond.com/tags/PyMel/"/>
-    
-      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
     
   </entry>
   
@@ -551,11 +574,11 @@
       <category term="TechArt" scheme="http://vegabeyond.com/categories/TechArt/"/>
     
     
+      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
+    
       <category term="Maya" scheme="http://vegabeyond.com/tags/Maya/"/>
     
       <category term="PyMel" scheme="http://vegabeyond.com/tags/PyMel/"/>
-    
-      <category term="Tools" scheme="http://vegabeyond.com/tags/Tools/"/>
     
   </entry>
   
